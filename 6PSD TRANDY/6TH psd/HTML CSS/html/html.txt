@@ -1,0 +1,170 @@
+div class="playicon ">
+                        <i class="fa-solid fa-play"></i><span class="firsttime">01:15</span>
+                    </div> 
+                    <div class="progressbar baryuv ">
+                        <progress id="file" value="67" max="100">98%</progress><span class="secondtime ">03:15</span>
+                    </div>
+                    <div class="volume fl">
+                        <i class="fa-solid fa-volume"></i>
+                        <progress id="file" value="67" max="100">98%</progress>
+                    </div>
+===========================for end slider===========================
+HTML
+ <div class="main-endslider ">
+                <div class="leftsign commonpadding ">
+                    <i class="fa-regular fa-angle-left"></i>
+                </div>
+                <p class="end-span commonpadding ">1 of 95</p>
+                <div class="rightsign commonpadding">
+                    <i class="fa-regular fa-angle-right"></i>
+                </div>
+                 
+            </div>
+CSS===================================
+* end slider */
+.commonpadding{
+    border: 1px solid;
+    padding: 18px 22px;
+    margin-left: -4px;
+}
+.main-endslider {
+    border: 1px solid black;
+}
+ .leftsign {
+    display: inline-block;
+}
+.end-span {
+    display: inline-block;
+}
+.rightsign {
+    display: inline-block;
+}
+=========================over=========================
+  <table>
+
+                                <tr class="stos">
+                                    <th class="t1m">M</th>
+                                    <th class="t2t">T</th>
+                                    <th class="t3w">W</th>
+                                    <th class="t4T">T</th>
+                                    <th class="t5f">F</th>
+                                    <th class="t6s">S</th>
+                                    <th class="t7S">S</th>
+                                </tr>
+
+
+                                <tbody>
+                                    <tr>
+                                        <td class="t1"></td>
+                                        <td class="t2"></td>
+                                        <td class="t3"></td>
+                                        <td class="t4"></td>
+                                        <td  class="t5"></td>
+                                        <td class="t61">1</td>
+                                        <td  class="t72">2</td>
+                                    </tr><br>
+                                    <tr></tr>
+                                    <tr>
+                                        <td class="t1-3">3</td>
+                                        <td class="t2-4">4</td>
+                                        <td class="t3">5</td>
+                                        <td class="t4">6</td>
+                                        <td class="t5">7</td>
+                                        <td class="t6">8</td>
+                                        <td  class="t7">9</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t111">10</td>
+                                        <td class="t111">11</td>
+                                        <td class="t111">12</td>
+                                        <td class="t111">13</td>
+                                        <td  class="t111">14</td>
+                                        <td class="t111">15</td>
+                                        <td class="t111">16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1">17</td>
+                                        <td class="t2">18</td>
+                                        <td class="t3">19</td>
+                                        <td class="t4">20</td>
+                                        <td class="t5">21</td>
+                                        <td class="t6">22</td>
+                                        <td  class="t7">23</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1">24</td>
+                                        <td class="t2">25</td>
+                                        <td class="t3">26</td>
+                                        <td class="t4">27</td>
+                                        <td class="t5">28</td>
+                                        <td class="t6">29</td>
+                                        <td  class="t7">30</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="t1">31</td>
+                                        <td class="t2"></td>
+                                        <td class="t3"></td>
+                                        <td class="t4"></td>
+                                        <td class="t5"></td>
+                                        <td class="t6"></td>
+                                        <td class="t7"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+CSS
+.stos th{
+    font-size: 14px;
+line-height: 17px;
+color: #a9a9a9;
+font-weight: 400;
+font-family: "Open Sans";
+padding: 0 10px;
+}
+.stos{
+    margin: 0 -10px;
+}
+.stos .t3w{
+    padding-left: 14px;
+}
+.stos .t4T{
+    padding-left: 9px;
+}
+.stos .t6s{
+    padding-left: 14px;
+}
+td{
+    width: 17px;
+    padding: 5px;
+    height: 17px;
+    font-size: 14px;
+line-height: 17px;
+color: #525252;
+font-weight: 400;
+font-family: "Open Sans";
+}
+.t61{
+    text-align: right;
+    padding-right: 7px;
+    padding-top: 16px;
+}
+.t72{
+    text-align: end;
+    padding-top: 16px;
+}
+.t111{
+    padding-left: 9px;
+    padding-top: 12px;
+}
+
+
+
+1. Need to learn use case of each form element/tag.
+2. Need to learn which tag should be used where.
+3. Need to learn difference between inline elements and block level elements.
+4. Need to clear concepts of inline-block.
+
+
+
+
+
+
